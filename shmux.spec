@@ -10,7 +10,6 @@ Source0: 	%{name}-%{version}b6.tar.bz2
 License: 	GPL
 Group:		Networking/Remote access
 Url: 		http://web.taranis.org/shmux/
-BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
 %description
