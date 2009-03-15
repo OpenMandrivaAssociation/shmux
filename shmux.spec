@@ -1,6 +1,6 @@
 %define name shmux
 %define version 1.0
-%define release %mkrel 0.beta9.2
+%define release %mkrel 0.beta9.3
 
 Summary: 	Program for executing the same command on many hosts in parallel
 Name: 		%{name}
