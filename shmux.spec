@@ -2,15 +2,17 @@
 %define version 1.0
 %define release %mkrel 0.beta9.3
 
-Summary: 	Program for executing the same command on many hosts in parallel
 Name: 		%{name}
 Version: 	%{version}
 Release: 	%{release}
-Source0: 	%{name}-%{version}b6.tar.bz2
+Summary: 	Program for executing the same command on many hosts in parallel
 License: 	GPL
 Group:		Networking/Remote access
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: 		http://web.taranis.org/shmux/
+Source0: 	%{name}-%{version}b6.tar.bz2
+BuildRequires:  pcre-devel
+BuildRequires:  ncurses-devel
+BuildRoot: %{_tmppath}/%{name}-%{version}
 
 
 %description
