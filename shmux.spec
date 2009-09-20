@@ -1,6 +1,6 @@
 %define name shmux
 %define version 1.0
-%define release %mkrel 0.beta9.3
+%define release %mkrel 0.beta9.4
 
 Name: 		%{name}
 Version: 	%{version}
