@@ -1,6 +1,6 @@
 %define name shmux
-%define version 1.0
-%define release %mkrel 0.beta9.4
+%define version 1.0.2
+%define release %mkrel 1
 
 Name: 		%{name}
 Version: 	%{version}
@@ -9,7 +9,7 @@ Summary: 	Program for executing the same command on many hosts in parallel
 License: 	GPL
 Group:		Networking/Remote access
 Url: 		http://web.taranis.org/shmux/
-Source0: 	%{name}-%{version}b6.tar.bz2
+Source0: 	%{name}-%{version}.tgz
 BuildRequires:  pcre-devel
 BuildRequires:  ncurses-devel
 BuildRoot: %{_tmppath}/%{name}-%{version}
@@ -24,7 +24,7 @@ in turn to the user using an easy to read format, or written to files for
 later processing making it well suited for use in scripts.
 
 %prep 
-%setup -q -n %name-%{version}b6
+%setup -q -n %name-%{version}
 
 %build
 %configure
