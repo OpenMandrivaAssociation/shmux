@@ -4,7 +4,7 @@
 
 Name: 		%{name}
 Version: 	%{version}
-Release: 	%{release}
+Release:	1
 Summary: 	Program for executing the same command on many hosts in parallel
 License: 	GPL
 Group:		Networking/Remote access
