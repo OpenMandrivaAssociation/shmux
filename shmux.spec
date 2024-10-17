@@ -8,7 +8,7 @@ Release:	1
 Summary: 	Program for executing the same command on many hosts in parallel
 License: 	GPL
 Group:		Networking/Remote access
-Url: 		http://web.taranis.org/shmux/
+Url: 		https://web.taranis.org/shmux/
 Source0: 	%{name}-%{version}.tgz
 BuildRequires:  pcre-devel
 BuildRequires:  ncurses-devel
